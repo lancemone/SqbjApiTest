@@ -1,0 +1,6 @@
+[
+  "test_cases/test_public_api/test_get_tenant.py::TestGetTenant::()::test_get_tenant[16811011101-\\u946b\\u6cf0\\u4ea7\\u4e1a]",
+  "test_cases/test_public_api/test_get_tenant.py::TestGetTenant::()::test_get_tenant[16811011101-motest]",
+  "test_cases/test_public_api/test_get_tenant.py::TestGetTenant::()::test_get_tenant[16811011101-jingj]",
+  "test_cases/test_public_api/test_login.py::TestLogin::()::test_login"
+]

@@ -1,0 +1,113 @@
+{
+  "uid" : "7c6a8d0ef35efceb",
+  "name" : ".Users.motao.PycharmProjects.SqbjApiTest.test_cases.test_public_api.test_get_tenant.TestGetTenant.test_get_tenant[16811011101-jingj]",
+  "title" : "Test get tenant [16811011101-jingj]",
+  "time" : {
+    "start" : 1542707410309,
+    "stop" : 1542707410577,
+    "duration" : 268
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n\n        用例描述：根据用户手机号验证此手机号返回的相应租户是否正确\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "79ad49c0dbd38434",
+    "name" : "test_cases",
+    "title" : "Test cases"
+  },
+  "steps" : [ {
+    "name" : "设置用户登录手机号",
+    "title" : "设置用户登录手机号",
+    "time" : {
+      "start" : 1542707410311,
+      "stop" : 1542707410311,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "获取用户租户信息",
+    "title" : "获取用户租户信息",
+    "time" : {
+      "start" : 1542707410311,
+      "stop" : 1542707410577,
+      "duration" : 266
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "验证结果",
+    "title" : "验证结果",
+    "time" : {
+      "start" : 1542707410577,
+      "stop" : 1542707410577,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured log setup",
+    "source" : "9fe0d5f2-9ad1-42c6-bb4e-c243f4c1f0e4-attachment.txt",
+    "type" : "text/plain",
+    "size" : 276,
+    "uid" : "1d8bf594ebf90ed0"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "20484-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_cases"
+  }, {
+    "name" : "feature",
+    "value" : "TestGetTenant"
+  }, {
+    "name" : "story",
+    "value" : "验证获取用户租户接口"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "test_get_tenant"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

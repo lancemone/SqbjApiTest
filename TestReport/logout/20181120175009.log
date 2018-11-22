@@ -1,0 +1,106 @@
+2018-11-20 17:50:09,661 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:09,661 AutoTest- INFO - module      : test_cases.test_public_api.test_get_tenant test start
+2018-11-20 17:50:09,661 AutoTest- INFO - -----------------
+2018-11-20 17:50:09,662 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:09,662 AutoTest- INFO - module      : test_get_tenant test start
+2018-11-20 17:50:09,662 AutoTest- INFO - time        : Tue Nov 20 17:50:09 2018
+2018-11-20 17:50:09,662 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,014 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,014 AutoTest- INFO - module      : test_get_tenant test finished
+2018-11-20 17:50:10,014 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,019 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,019 AutoTest- INFO - module      : test_get_tenant test start
+2018-11-20 17:50:10,019 AutoTest- INFO - time        : Tue Nov 20 17:50:10 2018
+2018-11-20 17:50:10,019 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,307 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,307 AutoTest- INFO - module      : test_get_tenant test finished
+2018-11-20 17:50:10,308 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,309 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,310 AutoTest- INFO - module      : test_get_tenant test start
+2018-11-20 17:50:10,310 AutoTest- INFO - time        : Tue Nov 20 17:50:10 2018
+2018-11-20 17:50:10,310 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,577 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,578 AutoTest- INFO - module      : test_get_tenant test finished
+2018-11-20 17:50:10,578 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,578 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,578 AutoTest- INFO - module      : test_cases.test_public_api.test_get_tenant test finished
+2018-11-20 17:50:10,579 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,582 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,582 AutoTest- INFO - module      : test_cases.test_public_api.test_login test start
+2018-11-20 17:50:10,582 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,582 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,582 AutoTest- INFO - module      : test_login test start
+2018-11-20 17:50:10,583 AutoTest- INFO - time        : Tue Nov 20 17:50:10 2018
+2018-11-20 17:50:10,583 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,583 AutoTest- INFO - finish
+2018-11-20 17:50:10,584 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,584 AutoTest- INFO - module      : test_login test finished
+2018-11-20 17:50:10,584 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,584 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,584 AutoTest- INFO - module      : test_cases.test_public_api.test_login test finished
+2018-11-20 17:50:10,584 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,635 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,635 AutoTest- INFO - module      : test_cases.test_public_api.test_get_tenant test start
+2018-11-20 17:50:10,635 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,635 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,635 AutoTest- INFO - module      : test_get_tenant test start
+2018-11-20 17:50:10,635 AutoTest- INFO - time        : Tue Nov 20 17:50:10 2018
+2018-11-20 17:50:10,635 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,661 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,661 AutoTest- INFO - module      : test_get_tenant test finished
+2018-11-20 17:50:10,661 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,662 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,662 AutoTest- INFO - module      : test_get_tenant test start
+2018-11-20 17:50:10,662 AutoTest- INFO - time        : Tue Nov 20 17:50:10 2018
+2018-11-20 17:50:10,663 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,677 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,677 AutoTest- INFO - module      : test_get_tenant test finished
+2018-11-20 17:50:10,677 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,678 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,678 AutoTest- INFO - module      : test_get_tenant test start
+2018-11-20 17:50:10,678 AutoTest- INFO - time        : Tue Nov 20 17:50:10 2018
+2018-11-20 17:50:10,678 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,694 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,695 AutoTest- INFO - module      : test_get_tenant test finished
+2018-11-20 17:50:10,695 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,695 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,695 AutoTest- INFO - module      : test_cases.test_public_api.test_get_tenant test finished
+2018-11-20 17:50:10,695 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,696 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,696 AutoTest- INFO - module      : test_cases.test_public_api.test_login test start
+2018-11-20 17:50:10,696 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,697 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,697 AutoTest- INFO - module      : test_login test start
+2018-11-20 17:50:10,697 AutoTest- INFO - time        : Tue Nov 20 17:50:10 2018
+2018-11-20 17:50:10,697 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,698 AutoTest- INFO - finish
+2018-11-20 17:50:10,699 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,699 AutoTest- INFO - module      : test_login test finished
+2018-11-20 17:50:10,699 AutoTest- INFO - -----------------
+2018-11-20 17:50:10,699 AutoTest- INFO - 
+-----------------
+2018-11-20 17:50:10,699 AutoTest- INFO - module      : test_cases.test_public_api.test_login test finished
+2018-11-20 17:50:10,699 AutoTest- INFO - -----------------

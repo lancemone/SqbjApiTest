@@ -1,0 +1,62 @@
+{
+  "uid" : "1c1d08a4a627495d",
+  "name" : ".Users.motao.PycharmProjects.SqbjApiTest.test_cases.test_public_api.test_login.TestLogin.test_login",
+  "title" : "Test login",
+  "time" : {
+    "start" : 1542707410581,
+    "stop" : 1542707410584,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "79ad49c0dbd38434",
+    "name" : "test_cases",
+    "title" : "Test cases"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured log setup",
+    "source" : "d0140c24-6daa-4f65-8e41-fbcacef4c4b6-attachment.txt",
+    "type" : "text/plain",
+    "size" : 491,
+    "uid" : "d81678dad889af4f"
+  }, {
+    "title" : "Captured log call",
+    "source" : "e860bfb8-977b-43cb-a61e-6172067005f2-attachment.txt",
+    "type" : "text/plain",
+    "size" : 46,
+    "uid" : "ab1623722fe43e59"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "20484-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_cases"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

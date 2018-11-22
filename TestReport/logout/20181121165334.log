@@ -1,0 +1,41 @@
+2018-11-21 16:53:34,760 AutoTest- INFO - -----------------
+2018-11-21 16:53:34,761 AutoTest- INFO - module      : test_cases.test_public_api.test_get_tenant test start
+2018-11-21 16:53:34,761 AutoTest- INFO - -----------------
+2018-11-21 16:53:34,761 AutoTest- INFO - -----------------
+2018-11-21 16:53:34,762 AutoTest- INFO - function    : test_get_tenant test start
+2018-11-21 16:53:34,762 AutoTest- INFO - time        : Wed Nov 21 16:53:34 2018
+2018-11-21 16:53:34,762 AutoTest- INFO - -----------------
+2018-11-21 16:53:35,529 AutoTest- INFO - -----------------
+2018-11-21 16:53:35,530 AutoTest- INFO - function    : test_get_tenant test finished
+2018-11-21 16:53:35,530 AutoTest- INFO - -----------------
+2018-11-21 16:53:35,536 AutoTest- INFO - -----------------
+2018-11-21 16:53:35,536 AutoTest- INFO - function    : test_get_tenant test start
+2018-11-21 16:53:35,536 AutoTest- INFO - time        : Wed Nov 21 16:53:35 2018
+2018-11-21 16:53:35,536 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,052 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,052 AutoTest- INFO - function    : test_get_tenant test finished
+2018-11-21 16:53:36,052 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,056 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,057 AutoTest- INFO - function    : test_get_tenant test start
+2018-11-21 16:53:36,057 AutoTest- INFO - time        : Wed Nov 21 16:53:36 2018
+2018-11-21 16:53:36,057 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,428 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,428 AutoTest- INFO - function    : test_get_tenant test finished
+2018-11-21 16:53:36,428 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,429 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,429 AutoTest- INFO - module      : test_cases.test_public_api.test_get_tenant test finished
+2018-11-21 16:53:36,429 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,433 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,434 AutoTest- INFO - module      : test_cases.test_public_api.test_login test start
+2018-11-21 16:53:36,434 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,434 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,435 AutoTest- INFO - function    : test_login test start
+2018-11-21 16:53:36,435 AutoTest- INFO - time        : Wed Nov 21 16:53:36 2018
+2018-11-21 16:53:36,435 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,436 AutoTest- INFO - finish
+2018-11-21 16:53:36,437 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,438 AutoTest- INFO - function    : test_login test finished
+2018-11-21 16:53:36,438 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,438 AutoTest- INFO - -----------------
+2018-11-21 16:53:36,438 AutoTest- INFO - module      : test_cases.test_public_api.test_login test finished
+2018-11-21 16:53:36,439 AutoTest- INFO - -----------------
