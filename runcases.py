@@ -16,11 +16,12 @@ class RunCases:
         self.allure_report_path = pathconf().allure_report_path()
         self.html_report_path = pathconf().html_report_path()
         self.casedir = os.path.join(os.getcwd(), "test_cases")
+        print(self.casedir)
 
     def run_cases(self):
-        pytest.main(['-s', '-q', '%s' % self.casedir, '--alluredir', '%s' % self.xml_report_path])
+        # pytest.main(['-s', '-q', '%s' % self.casedir, '--alluredir', '%s' % self.xml_report_path])
         pytest.main(['-s', '-q', '%s' % self.casedir, '--html', '%s' % self.html_report_path])
-        os.system('allure generate %s -o %s' % (self.xml_report_path, self.allure_report_path))
+        # os.system('allure generate %s -o %s' % (self.xml_report_path, self.allure_report_path))
 
 
 if __name__ == "__main__":
