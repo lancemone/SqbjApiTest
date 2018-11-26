@@ -6,18 +6,16 @@
 # @File    : runcases.py
 # @Software: PyCharm
 import os
-import shutil
 import pytest
+from common.path_conf import PathConf as pathconf
 
 
 class RunCases:
     def __init__(self):
-        self.xml_report_path = self.xml_report_path()
-        self.allure_report_path = self.allure_report_path()
-        self.html_report_path = self.html_report_path()
+        self.xml_report_path = pathconf().xml_report_path()
+        self.allure_report_path = pathconf().allure_report_path()
+        self.html_report_path = pathconf().html_report_path()
         self.casedir = os.path.join(os.getcwd(), "test_cases")
-
-
 
     def run_cases(self):
         pytest.main(['-s', '-q', '%s' % self.casedir, '--alluredir', '%s' % self.xml_report_path])

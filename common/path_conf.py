@@ -8,6 +8,7 @@
 import os
 import shutil
 
+
 class PathConf:
     def report_path(self):
         rep_path = os.path.split(os.path.abspath(__file__))[0]
