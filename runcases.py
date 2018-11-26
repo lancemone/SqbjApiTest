@@ -17,6 +17,8 @@ class RunCases:
         self.html_report_path = pathconf().html_report_path()
         self.casedir = os.path.join(os.getcwd(), "test_cases")
         print(self.casedir)
+        print(self.allure_report_path)
+        print(self.html_report_path)
 
     def run_cases(self):
         # pytest.main(['-s', '-q', '%s' % self.casedir, '--alluredir', '%s' % self.xml_report_path])
