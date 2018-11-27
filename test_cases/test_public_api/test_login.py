@@ -5,13 +5,15 @@
 # @Site    : 
 # @File    : test_login.py
 # @Software: PyCharm
-
+import allure
 import pytest
 from common import log_conf, consts
+from allure import utils
 
 logger = log_conf.logger
 
 
+@allure.MASTER_HELPER.feature("test")
 class TestLogin:
     def test_login(self, fun_log):
         assert 0 == 0

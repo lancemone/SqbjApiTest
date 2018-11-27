@@ -12,7 +12,8 @@ import shutil
 class PathConf:
     def report_path(self):
         rep_path = os.path.split(os.path.abspath(__file__))[0]
-        report_path = os.path.join(rep_path, "report")
+        report_path = os.path.join(os.path.split(rep_path)[0], "report")
+        # print(report_path)
         if os.path.exists(report_path):
             return report_path
         else:
@@ -64,3 +65,4 @@ class PathConf:
             os.mkdir(html_path)
             open(html_report_path, 'w').close()
             return html_report_path
+

@@ -1,5 +1,0 @@
-conftest.py                 28 INFO     
------------------
-conftest.py                 29 INFO     module      : test_get_tenant test start
-conftest.py                 30 INFO     time        : Tue Nov 20 17:50:10 2018
-conftest.py                 31 INFO     -----------------

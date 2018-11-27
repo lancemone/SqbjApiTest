@@ -2,5 +2,7 @@
   "test_get_tenant.py::TestGetTenant::()::test_get_tenant[16811011100-\\u946b\\u6cf0\\u4ea7\\u4e1a]": true,
   "test_get_tenant.py::TestGetTenant::()::test_get_tenant[16811011100-jingj]": true,
   "test_get_tenant.py::TestGetTenant::()::test_get_tenant[16811011100-motest]": true,
-  "test_get_tenant.py::TestGetTenant::()::test_get_tenant[16811011101-\\u946b\\u6cf0\\u4ea7\\u4e1a]": true
+  "test_get_tenant.py::TestGetTenant::()::test_get_tenant[16811011101-\\u946b\\u6cf0\\u4ea7\\u4e1a]": true,
+  "test_get_tenant.py::TestGetTenant::test_get_tenant[16811011101-xintai]": true,
+  "test_login.py": true
 }

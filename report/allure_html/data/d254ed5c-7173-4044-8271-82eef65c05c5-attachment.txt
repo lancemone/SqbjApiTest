@@ -1,7 +1,0 @@
-conftest.py                 17 INFO     -----------------
-conftest.py                 18 INFO     module      : test_cases.test_public_api.test_get_tenant test start
-conftest.py                 19 INFO     -----------------
-conftest.py                 28 INFO     -----------------
-conftest.py                 29 INFO     function    : test_get_tenant test start
-conftest.py                 30 INFO     time        : Wed Nov 21 16:53:34 2018
-conftest.py                 31 INFO     -----------------
