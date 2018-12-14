@@ -1,5 +1,5 @@
 [
-  "test_get_tenant.py::TestGetTenant::test_get_tenant[16811011101-\\u946b\\u6cf0\\u4ea7\\u4e1a]",
-  "test_get_tenant.py::TestGetTenant::test_get_tenant[16811011101-motest]",
-  "test_get_tenant.py::TestGetTenant::test_get_tenant[16811011101-jingj]"
+  "test_get_tennats.py::TestGetTenant::test_get_tenant[16811011101-\\u946b\\u6cf0\\u4ea7\\u4e1a]",
+  "test_get_tennats.py::TestGetTenant::test_get_tenant[16811011101-motest]",
+  "test_get_tennats.py::TestGetTenant::test_get_tenant[16811011101-jingj]"
 ]

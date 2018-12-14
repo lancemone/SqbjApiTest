@@ -21,9 +21,9 @@ class RunCases:
         print(self.html_report_path)
 
     def run_cases(self):
-        # pytest.main(['-s', '-q', '%s' % self.casedir, '--alluredir', '%s' % self.xml_report_path])
+        pytest.main(['-s', '-q', '%s' % self.casedir, '--alluredir', '%s' % self.xml_report_path])
         pytest.main(['-s', '-q', '%s' % self.casedir, '--html', '%s' % self.html_report_path])
-        # os.system('allure generate %s -o %s' % (self.xml_report_path, self.allure_report_path))
+        os.system('allure generate %s -o %s' % (self.xml_report_path, self.allure_report_path))
 
 
 if __name__ == "__main__":
