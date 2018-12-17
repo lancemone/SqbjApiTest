@@ -22,7 +22,7 @@ class PathConf:
 
     def xml_report_path(self):
         report_path = self.report_path()
-        xml_report_path = os.path.join(report_path, "allure-report")
+        xml_report_path = os.path.join(report_path, "xml")
         if os.path.exists(xml_report_path):
             if os.listdir(xml_report_path) is []:
                 return xml_report_path
@@ -65,4 +65,14 @@ class PathConf:
             os.mkdir(html_path)
             open(html_report_path, 'w').close()
             return html_report_path
+
+    def jenkins_allure_path(self):
+        rep_path = os.path.split(os.path.abspath(__file__))[0]
+        report_path = os.path.join(os.path.split(rep_path)[0], "allure-report")
+        # print(report_path)
+        if os.path.exists(report_path):
+            return report_path
+        else:
+            os.mkdir(report_path)
+            return report_path
 

@@ -19,9 +19,9 @@ class RunCases:
         print(self.xml_report_path)
         print(self.html_report_path)
 
-    def mk_path(self):
-        xml_report_path = self.xml_report_path
-        return xml_report_path
+    def jenkins_allure_path(self):
+        jenkins_path = self.jenkins_allure_path()
+        return jenkins_path
 
     def run_cases(self):
         # pytest.main(['-s', '-q', '%s' % self.casedir, '--alluredir', '%s' % self.xml_report_path])
