@@ -16,11 +16,11 @@ class RunCases:
         # self.allure_report_path = pathconf().allure_report_path()
         self.html_report_path = pathconf().html_report_path()
         self.casedir = os.path.join(os.getcwd(), "test_cases")
-        print(self.xml_report_path)
-        print(self.html_report_path)
+        # print(self.xml_report_path)
+        # print(self.html_report_path)
 
     def jenkins_allure_path(self):
-        jenkins_path = self.jenkins_allure_path()
+        jenkins_path = pathconf().jenkins_allure_path()
         return jenkins_path
 
     def run_cases(self):
