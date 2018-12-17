@@ -22,7 +22,7 @@ class PathConf:
 
     def xml_report_path(self):
         report_path = self.report_path()
-        xml_report_path = os.path.join(report_path, "allure_report")
+        xml_report_path = os.path.join(report_path, "allure-report")
         if os.path.exists(xml_report_path):
             if os.listdir(xml_report_path) is []:
                 return xml_report_path
