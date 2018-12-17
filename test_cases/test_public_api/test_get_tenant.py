@@ -40,7 +40,6 @@ class TestGetTenant(object):
             r_code = r.status_code
             r_json = json.dumps(r.json(), ensure_ascii=False)
             r_time = r.elapsed.microseconds / 1000
-            # res = r_json['result']
         with allure.step("验证结果"):
             assert r_code == 200
             assert shortname in r_json
