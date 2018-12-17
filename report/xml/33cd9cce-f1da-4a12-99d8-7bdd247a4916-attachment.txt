@@ -1,0 +1,7 @@
+conftest.py                 17 INFO     -----------------
+conftest.py                 18 INFO     module      : test_cases.test_public_api.test_login test start
+conftest.py                 19 INFO     -----------------
+conftest.py                 28 INFO     -----------------
+conftest.py                 29 INFO     function    : test_login test start
+conftest.py                 30 INFO     time        : Mon Dec 17 15:56:40 2018
+conftest.py                 31 INFO     -----------------
