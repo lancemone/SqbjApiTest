@@ -68,7 +68,7 @@ class PathConf:
 
     def jenkins_allure_path(self):
         rep_path = os.path.split(os.path.abspath(__file__))[0]
-        report_path = os.path.join(os.path.split(rep_path)[0], "allure-report")
+        report_path = os.path.join(os.path.split(rep_path)[0], "allure-results")
         # print(report_path)
         if os.path.exists(report_path):
             return report_path
