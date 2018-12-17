@@ -31,5 +31,5 @@ class RunCases:
 
 if __name__ == "__main__":
     a = RunCases()
-    a.mk_path()
+    a.jenkins_allure_path()
     a.run_cases()
