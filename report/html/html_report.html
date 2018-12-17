@@ -235,7 +235,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>html_report.html</h1>
-    <p>Report generated on 14-Dec-2018 at 21:03:46 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.19.0</p>
+    <p>Report generated on 17-Dec-2018 at 15:56:40 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.19.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -254,8 +254,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.0</td></tr></table>
     <h2>Summary</h2>
-    <p>7 tests ran in 0.20 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">6 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 0.02 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -266,84 +266,6 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_cases/test_public_api/test_get_tenant.py::TestGetTenant::test_get_tenant[16811011101-\u946b\u6cf0\u4ea7\u4e1a]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_cases.test_public_api.test_get_tenant.TestGetTenant object at 0x10ca61358&gt;<br/>username = 16811011101, shortname = &#x27;鑫泰产业&#x27;<br/><br/>    @allure.MASTER_HELPER.story(&quot;验证获取用户租户接口&quot;)  # story定义用户场景<br/>    @allure.MASTER_HELPER.feature(&#x27;test_get_tenant&#x27;)<br/>    def test_get_tenant(self, username, shortname):<br/>        &#x27;&#x27;&#x27;<br/>    <br/>        用例描述：根据用户手机号验证此手机号返回的相应租户是否正确<br/>        &#x27;&#x27;&#x27;<br/>        # 将一个测试用例分成几个步骤，将步骤打印到测试报告中<br/>&gt;       with allure.MASTER_HELPER.step(&quot;设置用户登录手机号&quot;):<br/><br/>test_cases/test_public_api/test_get_tenant.py:32: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/common.py:37: in __enter__<br/>    self.step = self.allure.start_step(self.title)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;allure.pytest_plugin.AllureTestListener object at 0x10b500e10&gt;<br/>name = &#x27;设置用户登录手机号&#x27;<br/><br/>    def start_step(self, name):<br/>        &quot;&quot;&quot;<br/>        Starts an new :py:class:`allure.structure.TestStep` with given ``name``,<br/>        pushes it to the ``self.stack`` and returns the step.<br/>        &quot;&quot;&quot;<br/>        step = TestStep(name=name,<br/>                        title=name,<br/>                        start=now(),<br/>                        attachments=[],<br/>                        steps=[])<br/>&gt;       self.stack[-1].steps.append(step)<br/><span class="error">E       IndexError: list index out of range</span><br/><br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/pytest_plugin.py:165: IndexError<br/>------------------------------ Captured log setup ------------------------------<br/>conftest.py                 17 INFO     -----------------
-conftest.py                 18 INFO     module      : test_cases.test_public_api.test_get_tenant test start
-conftest.py                 19 INFO     -----------------
-conftest.py                 28 INFO     -----------------
-conftest.py                 29 INFO     function    : test_get_tenant test start
-conftest.py                 30 INFO     time        : Fri Dec 14 21:03:46 2018
-conftest.py                 31 INFO     -----------------</div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_cases/test_public_api/test_get_tenant.py::TestGetTenant::test_get_tenant[16811011101-motest]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_cases.test_public_api.test_get_tenant.TestGetTenant object at 0x10ca38a90&gt;<br/>username = 16811011101, shortname = &#x27;motest&#x27;<br/><br/>    @allure.MASTER_HELPER.story(&quot;验证获取用户租户接口&quot;)  # story定义用户场景<br/>    @allure.MASTER_HELPER.feature(&#x27;test_get_tenant&#x27;)<br/>    def test_get_tenant(self, username, shortname):<br/>        &#x27;&#x27;&#x27;<br/>    <br/>        用例描述：根据用户手机号验证此手机号返回的相应租户是否正确<br/>        &#x27;&#x27;&#x27;<br/>        # 将一个测试用例分成几个步骤，将步骤打印到测试报告中<br/>&gt;       with allure.MASTER_HELPER.step(&quot;设置用户登录手机号&quot;):<br/><br/>test_cases/test_public_api/test_get_tenant.py:32: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/common.py:37: in __enter__<br/>    self.step = self.allure.start_step(self.title)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;allure.pytest_plugin.AllureTestListener object at 0x10b500e10&gt;<br/>name = &#x27;设置用户登录手机号&#x27;<br/><br/>    def start_step(self, name):<br/>        &quot;&quot;&quot;<br/>        Starts an new :py:class:`allure.structure.TestStep` with given ``name``,<br/>        pushes it to the ``self.stack`` and returns the step.<br/>        &quot;&quot;&quot;<br/>        step = TestStep(name=name,<br/>                        title=name,<br/>                        start=now(),<br/>                        attachments=[],<br/>                        steps=[])<br/>&gt;       self.stack[-1].steps.append(step)<br/><span class="error">E       IndexError: list index out of range</span><br/><br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/pytest_plugin.py:165: IndexError<br/>------------------------------ Captured log setup ------------------------------<br/>conftest.py                 28 INFO     -----------------
-conftest.py                 29 INFO     function    : test_get_tenant test start
-conftest.py                 30 INFO     time        : Fri Dec 14 21:03:46 2018
-conftest.py                 31 INFO     -----------------</div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_cases/test_public_api/test_get_tenant.py::TestGetTenant::test_get_tenant[16811011101-jingj]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_cases.test_public_api.test_get_tenant.TestGetTenant object at 0x10ca6c7f0&gt;<br/>username = 16811011101, shortname = &#x27;jingj&#x27;<br/><br/>    @allure.MASTER_HELPER.story(&quot;验证获取用户租户接口&quot;)  # story定义用户场景<br/>    @allure.MASTER_HELPER.feature(&#x27;test_get_tenant&#x27;)<br/>    def test_get_tenant(self, username, shortname):<br/>        &#x27;&#x27;&#x27;<br/>    <br/>        用例描述：根据用户手机号验证此手机号返回的相应租户是否正确<br/>        &#x27;&#x27;&#x27;<br/>        # 将一个测试用例分成几个步骤，将步骤打印到测试报告中<br/>&gt;       with allure.MASTER_HELPER.step(&quot;设置用户登录手机号&quot;):<br/><br/>test_cases/test_public_api/test_get_tenant.py:32: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/common.py:37: in __enter__<br/>    self.step = self.allure.start_step(self.title)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;allure.pytest_plugin.AllureTestListener object at 0x10b500e10&gt;<br/>name = &#x27;设置用户登录手机号&#x27;<br/><br/>    def start_step(self, name):<br/>        &quot;&quot;&quot;<br/>        Starts an new :py:class:`allure.structure.TestStep` with given ``name``,<br/>        pushes it to the ``self.stack`` and returns the step.<br/>        &quot;&quot;&quot;<br/>        step = TestStep(name=name,<br/>                        title=name,<br/>                        start=now(),<br/>                        attachments=[],<br/>                        steps=[])<br/>&gt;       self.stack[-1].steps.append(step)<br/><span class="error">E       IndexError: list index out of range</span><br/><br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/pytest_plugin.py:165: IndexError<br/>------------------------------ Captured log setup ------------------------------<br/>conftest.py                 28 INFO     -----------------
-conftest.py                 29 INFO     function    : test_get_tenant test start
-conftest.py                 30 INFO     time        : Fri Dec 14 21:03:46 2018
-conftest.py                 31 INFO     -----------------</div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_cases/test_public_api/test_get_tennats.py::TestGetTenant::test_get_tenant[16811011101-\u946b\u6cf0\u4ea7\u4e1a]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_cases.test_public_api.test_get_tennats.TestGetTenant object at 0x10ca9a390&gt;<br/>username = 16811011101, shortname = &#x27;鑫泰产业&#x27;<br/><br/>    @allure.MASTER_HELPER.story(&quot;验证获取用户租户接口&quot;)  # story定义用户场景<br/>    @allure.MASTER_HELPER.feature(&#x27;test_get_tenant&#x27;)<br/>    def test_get_tenant(self, username, shortname):<br/>        &#x27;&#x27;&#x27;<br/>    <br/>        用例描述：根据用户手机号验证此手机号返回的相应租户是否正确<br/>        &#x27;&#x27;&#x27;<br/>&gt;       data = self.set_data(username=username)<br/><br/>test_cases/test_public_api/test_get_tennats.py:58: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/common.py:61: in impl<br/>    with StepContext(self.allure, self.title.format(*a, **kw)):<br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/common.py:37: in __enter__<br/>    self.step = self.allure.start_step(self.title)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;allure.pytest_plugin.AllureTestListener object at 0x10b500e10&gt;<br/>name = &#x27;测试用户名:16811011101&#x27;<br/><br/>    def start_step(self, name):<br/>        &quot;&quot;&quot;<br/>        Starts an new :py:class:`allure.structure.TestStep` with given ``name``,<br/>        pushes it to the ``self.stack`` and returns the step.<br/>        &quot;&quot;&quot;<br/>        step = TestStep(name=name,<br/>                        title=name,<br/>                        start=now(),<br/>                        attachments=[],<br/>                        steps=[])<br/>&gt;       self.stack[-1].steps.append(step)<br/><span class="error">E       IndexError: list index out of range</span><br/><br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/pytest_plugin.py:165: IndexError<br/>------------------------------ Captured log setup ------------------------------<br/>conftest.py                 17 INFO     -----------------
-conftest.py                 18 INFO     module      : test_cases.test_public_api.test_get_tennats test start
-conftest.py                 19 INFO     -----------------
-conftest.py                 28 INFO     -----------------
-conftest.py                 29 INFO     function    : test_get_tenant test start
-conftest.py                 30 INFO     time        : Fri Dec 14 21:03:46 2018
-conftest.py                 31 INFO     -----------------</div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_cases/test_public_api/test_get_tennats.py::TestGetTenant::test_get_tenant[16811011101-motest]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_cases.test_public_api.test_get_tennats.TestGetTenant object at 0x10ca6c630&gt;<br/>username = 16811011101, shortname = &#x27;motest&#x27;<br/><br/>    @allure.MASTER_HELPER.story(&quot;验证获取用户租户接口&quot;)  # story定义用户场景<br/>    @allure.MASTER_HELPER.feature(&#x27;test_get_tenant&#x27;)<br/>    def test_get_tenant(self, username, shortname):<br/>        &#x27;&#x27;&#x27;<br/>    <br/>        用例描述：根据用户手机号验证此手机号返回的相应租户是否正确<br/>        &#x27;&#x27;&#x27;<br/>&gt;       data = self.set_data(username=username)<br/><br/>test_cases/test_public_api/test_get_tennats.py:58: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/common.py:61: in impl<br/>    with StepContext(self.allure, self.title.format(*a, **kw)):<br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/common.py:37: in __enter__<br/>    self.step = self.allure.start_step(self.title)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;allure.pytest_plugin.AllureTestListener object at 0x10b500e10&gt;<br/>name = &#x27;测试用户名:16811011101&#x27;<br/><br/>    def start_step(self, name):<br/>        &quot;&quot;&quot;<br/>        Starts an new :py:class:`allure.structure.TestStep` with given ``name``,<br/>        pushes it to the ``self.stack`` and returns the step.<br/>        &quot;&quot;&quot;<br/>        step = TestStep(name=name,<br/>                        title=name,<br/>                        start=now(),<br/>                        attachments=[],<br/>                        steps=[])<br/>&gt;       self.stack[-1].steps.append(step)<br/><span class="error">E       IndexError: list index out of range</span><br/><br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/pytest_plugin.py:165: IndexError<br/>------------------------------ Captured log setup ------------------------------<br/>conftest.py                 28 INFO     -----------------
-conftest.py                 29 INFO     function    : test_get_tenant test start
-conftest.py                 30 INFO     time        : Fri Dec 14 21:03:46 2018
-conftest.py                 31 INFO     -----------------</div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_cases/test_public_api/test_get_tennats.py::TestGetTenant::test_get_tenant[16811011101-jingj]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_cases.test_public_api.test_get_tennats.TestGetTenant object at 0x10ca853c8&gt;<br/>username = 16811011101, shortname = &#x27;jingj&#x27;<br/><br/>    @allure.MASTER_HELPER.story(&quot;验证获取用户租户接口&quot;)  # story定义用户场景<br/>    @allure.MASTER_HELPER.feature(&#x27;test_get_tenant&#x27;)<br/>    def test_get_tenant(self, username, shortname):<br/>        &#x27;&#x27;&#x27;<br/>    <br/>        用例描述：根据用户手机号验证此手机号返回的相应租户是否正确<br/>        &#x27;&#x27;&#x27;<br/>&gt;       data = self.set_data(username=username)<br/><br/>test_cases/test_public_api/test_get_tennats.py:58: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/common.py:61: in impl<br/>    with StepContext(self.allure, self.title.format(*a, **kw)):<br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/common.py:37: in __enter__<br/>    self.step = self.allure.start_step(self.title)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;allure.pytest_plugin.AllureTestListener object at 0x10b500e10&gt;<br/>name = &#x27;测试用户名:16811011101&#x27;<br/><br/>    def start_step(self, name):<br/>        &quot;&quot;&quot;<br/>        Starts an new :py:class:`allure.structure.TestStep` with given ``name``,<br/>        pushes it to the ``self.stack`` and returns the step.<br/>        &quot;&quot;&quot;<br/>        step = TestStep(name=name,<br/>                        title=name,<br/>                        start=now(),<br/>                        attachments=[],<br/>                        steps=[])<br/>&gt;       self.stack[-1].steps.append(step)<br/><span class="error">E       IndexError: list index out of range</span><br/><br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/allure/pytest_plugin.py:165: IndexError<br/>------------------------------ Captured log setup ------------------------------<br/>conftest.py                 28 INFO     -----------------
-conftest.py                 29 INFO     function    : test_get_tenant test start
-conftest.py                 30 INFO     time        : Fri Dec 14 21:03:46 2018
-conftest.py                 31 INFO     -----------------</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -357,5 +279,5 @@ conftest.py                 18 INFO     module      : test_cases.test_public_api
 conftest.py                 19 INFO     -----------------
 conftest.py                 28 INFO     -----------------
 conftest.py                 29 INFO     function    : test_login test start
-conftest.py                 30 INFO     time        : Fri Dec 14 21:03:46 2018
+conftest.py                 30 INFO     time        : Mon Dec 17 15:56:40 2018
 conftest.py                 31 INFO     ----------------------------------------------- Captured log call -------------------------------<br/>test_login.py               20 INFO     finish</div></td></tr></tbody></table></body></html>
