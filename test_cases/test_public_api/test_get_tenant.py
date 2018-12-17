@@ -24,7 +24,9 @@ class TestGetTenant(object):
     @allure.MASTER_HELPER.feature('test_get_tenant')
     def test_get_tenant(self, username, shortname):
         '''
+
          用例描述：根据用户手机号验证此手机号返回的相应租户是否正确
+
         '''
         with allure.MASTER_HELPER.step("设置用户登录手机号"):  # 将一个测试用例分成几个步骤，将步骤打印到测试报告中
             url = "https://smart.uat2.sqbj.com/api/basic/json-rpc/views"
